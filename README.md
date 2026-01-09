@@ -8,7 +8,7 @@ pip install tensorflow numpy nltk psutil tabulate
 ```
 
 ## Usage
-Edit the [`configs/config.py`](configs/config.py) file to adjust dataset, model, training, and inference parameters:
+Edit the [`configs/config.py`](config.py) file to adjust dataset, model, training, and inference parameters:
 ```bash
 class Config:
     # Data
