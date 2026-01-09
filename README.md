@@ -8,7 +8,7 @@ pip install tensorflow numpy nltk psutil tabulate
 ```
 
 ## Usage
-Edit the [`configs/config.py`](config.py) file to adjust dataset, model, training, and inference parameters:
+Edit the [`config.py`](configs/config.py) file to adjust dataset, model, training, and inference parameters:
 ```bash
 class Config:
     # Data
@@ -59,7 +59,7 @@ en_tokenizer.pkl
 ar_tokenizer.pkl
 ```
 
-you can also run [`scripts/inference.py`](inference.py) to start translating without training the model again using:
+you can also run [`inference.py`](scripts/inference.py) to start translating without training the model again using:
 ```bash
 python -m scripts.inference
 ```
