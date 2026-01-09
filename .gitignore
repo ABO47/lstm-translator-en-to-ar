@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model outputs
+*.h5
+*.keras
+
+# Tokenizers / serialized objects
+*.pkl
+
+# Logs
+*.log
+
+# NLTK data
+nltk_data/
+
+# TensorFlow / Keras cache
+.tf/
+.tensorflow/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
